@@ -18,10 +18,13 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
-      "@pages/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@components/*": ["src/app/components/*"],
+      "@pages/*": ["./pages/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Navegacion.tsx"],
   "exclude": ["node_modules"]
 }
