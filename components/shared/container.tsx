@@ -12,6 +12,6 @@ const Container: FC<ContainerProps> = ({ children, className }) => {
             {children}
         </div>
     );
-};
+}
 
-export default Container
+export default Container;
